@@ -25,6 +25,7 @@
 		7BAA18662B1162DF004038F4 /* VenmoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18652B1162DF004038F4 /* VenmoModels.swift */; };
 		7BAA18682B117505004038F4 /* VenmoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18672B117505004038F4 /* VenmoViewModel.swift */; };
 		7BBABAEE2B16ECB00053C37A /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBABAED2B16ECB00053C37A /* NavBarView.swift */; };
+		7BBABAF02B17DEFC0053C37A /* NavBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBABAEF2B17DEFC0053C37A /* NavBar2.swift */; };
 		7BE71F802B12BB7000783FD9 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE71F7F2B12BB7000783FD9 /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		7BAA18652B1162DF004038F4 /* VenmoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoModels.swift; sourceTree = "<group>"; };
 		7BAA18672B117505004038F4 /* VenmoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoViewModel.swift; sourceTree = "<group>"; };
 		7BBABAED2B16ECB00053C37A /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		7BBABAEF2B17DEFC0053C37A /* NavBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar2.swift; sourceTree = "<group>"; };
 		7BE71F7F2B12BB7000783FD9 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				7BAA185D2B1162A1004038F4 /* PayRequestViews */,
 				7BAA185A2B11628C004038F4 /* HomeViews */,
 				7BBABAED2B16ECB00053C37A /* NavBarView.swift */,
+				7BBABAEF2B17DEFC0053C37A /* NavBar2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBABAF02B17DEFC0053C37A /* NavBar2.swift in Sources */,
 				7B58E2F82B12D2CD008E7C59 /* WalletView.swift in Sources */,
 				7BAA18682B117505004038F4 /* VenmoViewModel.swift in Sources */,
 				7B01FFAB2B0EE6000043ADD8 /* venmoApp.swift in Sources */,

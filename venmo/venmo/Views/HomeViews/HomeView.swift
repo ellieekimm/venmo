@@ -56,6 +56,10 @@ struct HomeView: View {
                 }
                 Spacer()
                 ScrollView {
+                    Image("venmohome")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(.trailing, 7)
                     VStack(alignment: .leading) {
                         ForEach(paymentManager.payments, id: \.self) { payment in
                                 PaymentView(vm: PaymentViewModel(model: payment))
