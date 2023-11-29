@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B01FFAB2B0EE6000043ADD8 /* venmoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B01FFAA2B0EE6000043ADD8 /* venmoApp.swift */; };
+		7B01FFAF2B0EE6010043ADD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B01FFAE2B0EE6010043ADD8 /* Assets.xcassets */; };
+		7B01FFB22B0EE6010043ADD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B01FFB12B0EE6010043ADD8 /* Preview Assets.xcassets */; };
+		7B47A1EC2B168E5B00C60CC5 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B47A1EB2B168E5B00C60CC5 /* QRCodeView.swift */; };
+		7B58E2F82B12D2CD008E7C59 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58E2F72B12D2CD008E7C59 /* WalletView.swift */; };
+		7B58E2FA2B14FB95008E7C59 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58E2F92B14FB95008E7C59 /* HistoryView.swift */; };
+		7B58E2FC2B14FF04008E7C59 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58E2FB2B14FF04008E7C59 /* TransactionsView.swift */; };
+		7B58E3002B156BCA008E7C59 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58E2FF2B156BCA008E7C59 /* TabView.swift */; };
+		7B58E3022B158539008E7C59 /* MeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58E3012B158539008E7C59 /* MeView2.swift */; };
+		7BAA18532B116270004038F4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18522B116270004038F4 /* HomeView.swift */; };
+		7BAA18552B11627D004038F4 /* PayRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18542B11627D004038F4 /* PayRequestView.swift */; };
+		7BAA18592B116288004038F4 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18582B116288004038F4 /* PaymentView.swift */; };
+		7BAA185C2B11629B004038F4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA185B2B11629B004038F4 /* ProfileView.swift */; };
+		7BAA185F2B1162B4004038F4 /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA185E2B1162B4004038F4 /* ProfileDetailView.swift */; };
+		7BAA18612B1162BB004038F4 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18602B1162BB004038F4 /* PeopleView.swift */; };
+		7BAA18662B1162DF004038F4 /* VenmoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18652B1162DF004038F4 /* VenmoModels.swift */; };
+		7BAA18682B117505004038F4 /* VenmoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA18672B117505004038F4 /* VenmoViewModel.swift */; };
+		7BBABAEE2B16ECB00053C37A /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBABAED2B16ECB00053C37A /* NavBarView.swift */; };
+		7BE71F802B12BB7000783FD9 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE71F7F2B12BB7000783FD9 /* CommentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B01FFA72B0EE6000043ADD8 /* venmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = venmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B01FFAA2B0EE6000043ADD8 /* venmoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venmoApp.swift; sourceTree = "<group>"; };
+		7B01FFAE2B0EE6010043ADD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B01FFB12B0EE6010043ADD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B47A1EB2B168E5B00C60CC5 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		7B58E2F72B12D2CD008E7C59 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		7B58E2F92B14FB95008E7C59 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7B58E2FB2B14FF04008E7C59 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		7B58E2FF2B156BCA008E7C59 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		7B58E3012B158539008E7C59 /* MeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView2.swift; sourceTree = "<group>"; };
+		7BAA18522B116270004038F4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7BAA18542B11627D004038F4 /* PayRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRequestView.swift; sourceTree = "<group>"; };
+		7BAA18582B116288004038F4 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		7BAA185B2B11629B004038F4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7BAA185E2B1162B4004038F4 /* ProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailView.swift; sourceTree = "<group>"; };
+		7BAA18602B1162BB004038F4 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		7BAA18652B1162DF004038F4 /* VenmoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoModels.swift; sourceTree = "<group>"; };
+		7BAA18672B117505004038F4 /* VenmoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoViewModel.swift; sourceTree = "<group>"; };
+		7BBABAED2B16ECB00053C37A /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		7BE71F7F2B12BB7000783FD9 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B01FFA42B0EE6000043ADD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B01FF9E2B0EE6000043ADD8 = {
+			isa = PBXGroup;
+			children = (
+				7B01FFA92B0EE6000043ADD8 /* venmo */,
+				7B01FFA82B0EE6000043ADD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B01FFA82B0EE6000043ADD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B01FFA72B0EE6000043ADD8 /* venmo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B01FFA92B0EE6000043ADD8 /* venmo */ = {
+			isa = PBXGroup;
+			children = (
+				7B01FFAA2B0EE6000043ADD8 /* venmoApp.swift */,
+				7BAA18512B116255004038F4 /* ViewModel */,
+				7BAA18502B11624C004038F4 /* Model */,
+				7BAA184F2B116244004038F4 /* Views */,
+				7B01FFAE2B0EE6010043ADD8 /* Assets.xcassets */,
+				7B01FFB02B0EE6010043ADD8 /* Preview Content */,
+			);
+			path = venmo;
+			sourceTree = "<group>";
+		};
+		7B01FFB02B0EE6010043ADD8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B01FFB12B0EE6010043ADD8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BAA184F2B116244004038F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA18672B117505004038F4 /* VenmoViewModel.swift */,
+				7BAA18622B1162CD004038F4 /* MeViews */,
+				7BAA185D2B1162A1004038F4 /* PayRequestViews */,
+				7BAA185A2B11628C004038F4 /* HomeViews */,
+				7BBABAED2B16ECB00053C37A /* NavBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BAA18502B11624C004038F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA18652B1162DF004038F4 /* VenmoModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BAA18512B116255004038F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7BAA185A2B11628C004038F4 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA18522B116270004038F4 /* HomeView.swift */,
+				7BAA18582B116288004038F4 /* PaymentView.swift */,
+				7BAA185B2B11629B004038F4 /* ProfileView.swift */,
+				7BE71F7F2B12BB7000783FD9 /* CommentView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		7BAA185D2B1162A1004038F4 /* PayRequestViews */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA18542B11627D004038F4 /* PayRequestView.swift */,
+				7BAA185E2B1162B4004038F4 /* ProfileDetailView.swift */,
+				7BAA18602B1162BB004038F4 /* PeopleView.swift */,
+				7B47A1EB2B168E5B00C60CC5 /* QRCodeView.swift */,
+			);
+			path = PayRequestViews;
+			sourceTree = "<group>";
+		};
+		7BAA18622B1162CD004038F4 /* MeViews */ = {
+			isa = PBXGroup;
+			children = (
+				7B58E3012B158539008E7C59 /* MeView2.swift */,
+				7B58E2F72B12D2CD008E7C59 /* WalletView.swift */,
+				7B58E2F92B14FB95008E7C59 /* HistoryView.swift */,
+				7B58E2FB2B14FF04008E7C59 /* TransactionsView.swift */,
+				7B58E2FF2B156BCA008E7C59 /* TabView.swift */,
+			);
+			path = MeViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B01FFA62B0EE6000043ADD8 /* venmo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B01FFB52B0EE6010043ADD8 /* Build configuration list for PBXNativeTarget "venmo" */;
+			buildPhases = (
+				7B01FFA32B0EE6000043ADD8 /* Sources */,
+				7B01FFA42B0EE6000043ADD8 /* Frameworks */,
+				7B01FFA52B0EE6000043ADD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = venmo;
+			productName = venmo;
+			productReference = 7B01FFA72B0EE6000043ADD8 /* venmo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B01FF9F2B0EE6000043ADD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7B01FFA62B0EE6000043ADD8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7B01FFA22B0EE6000043ADD8 /* Build configuration list for PBXProject "venmo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B01FF9E2B0EE6000043ADD8;
+			productRefGroup = 7B01FFA82B0EE6000043ADD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B01FFA62B0EE6000043ADD8 /* venmo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B01FFA52B0EE6000043ADD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B01FFB22B0EE6010043ADD8 /* Preview Assets.xcassets in Resources */,
+				7B01FFAF2B0EE6010043ADD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B01FFA32B0EE6000043ADD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B58E2F82B12D2CD008E7C59 /* WalletView.swift in Sources */,
+				7BAA18682B117505004038F4 /* VenmoViewModel.swift in Sources */,
+				7B01FFAB2B0EE6000043ADD8 /* venmoApp.swift in Sources */,
+				7BBABAEE2B16ECB00053C37A /* NavBarView.swift in Sources */,
+				7B58E2FC2B14FF04008E7C59 /* TransactionsView.swift in Sources */,
+				7B58E3022B158539008E7C59 /* MeView2.swift in Sources */,
+				7BAA18552B11627D004038F4 /* PayRequestView.swift in Sources */,
+				7BAA18612B1162BB004038F4 /* PeopleView.swift in Sources */,
+				7B58E2FA2B14FB95008E7C59 /* HistoryView.swift in Sources */,
+				7BE71F802B12BB7000783FD9 /* CommentView.swift in Sources */,
+				7B58E3002B156BCA008E7C59 /* TabView.swift in Sources */,
+				7BAA18592B116288004038F4 /* PaymentView.swift in Sources */,
+				7B47A1EC2B168E5B00C60CC5 /* QRCodeView.swift in Sources */,
+				7BAA185F2B1162B4004038F4 /* ProfileDetailView.swift in Sources */,
+				7BAA18662B1162DF004038F4 /* VenmoModels.swift in Sources */,
+				7BAA185C2B11629B004038F4 /* ProfileView.swift in Sources */,
+				7BAA18532B116270004038F4 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B01FFB32B0EE6010043ADD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B01FFB42B0EE6010043ADD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B01FFB62B0EE6010043ADD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"venmo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appteam.venmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B01FFB72B0EE6010043ADD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"venmo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appteam.venmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B01FFA22B0EE6000043ADD8 /* Build configuration list for PBXProject "venmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B01FFB32B0EE6010043ADD8 /* Debug */,
+				7B01FFB42B0EE6010043ADD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B01FFB52B0EE6010043ADD8 /* Build configuration list for PBXNativeTarget "venmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B01FFB62B0EE6010043ADD8 /* Debug */,
+				7B01FFB72B0EE6010043ADD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B01FF9F2B0EE6000043ADD8 /* Project object */;
+}
