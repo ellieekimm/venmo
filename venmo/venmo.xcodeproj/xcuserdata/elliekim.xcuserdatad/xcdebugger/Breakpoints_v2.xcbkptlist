@@ -18,6 +18,38 @@
             endingLineNumber = "9"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "512FDBD1-D544-4185-9CF3-808F188D9611 - ccf7e656f3df0254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "venmo.PayRequestView.init() -&gt; venmo.PayRequestView"
+                  moduleName = "venmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elliekim/code/appteam/academy/venmo/venmo/venmo/Views/PayRequestViews/PayRequestView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "2472">
+               </Location>
+               <Location
+                  uuid = "512FDBD1-D544-4185-9CF3-808F188D9611 - cfc2ab6764afa575"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "venmo.PayRequestView.init(textField: Swift.String, users: Swift.Array&lt;venmo.User&gt;) -&gt; venmo.PayRequestView"
+                  moduleName = "venmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elliekim/code/appteam/academy/venmo/venmo/venmo/Views/PayRequestViews/PayRequestView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

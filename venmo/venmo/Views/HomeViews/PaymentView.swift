@@ -82,7 +82,7 @@ struct PaymentView: View {
                                     .foregroundColor(Color.gray)
                                     .font(.system(size: 13))
                             }
-                            NavigationLink(destination: CommentView(vm: vm, comments: $comments)) {
+                            NavigationLink(destination: CommentView(vm: vm, comments: $comments)){
                                 Image(systemName: "message")
                                     .resizable()
                                     .scaledToFit()
