@@ -5,12 +5,6 @@
 //  Created by Ellie Kim on 11/28/23.
 //
 
-// THINGS LEFT TO DO:
-// 1) Make search bar functioning
-// 2) Fix white bar at bottom of MeView()
-// 3) Make wallet/transactions view more believable
-// 4) Make nav bar better
-
 import SwiftUI
 
 struct NavBarView: View {
@@ -29,7 +23,7 @@ struct NavBarView: View {
                 PayRequestView()
                     .environmentObject(paymentManager)
             case 3:
-                MeView2()
+                MeViewFix()
                     .environmentObject(paymentManager)
             default:
                 HomeView()

@@ -9,11 +9,21 @@ import SwiftUI
 
 struct PayRequestView: View {
     @StateObject var um: UserManager = UserManager()
-    @State var searchText: String = ""
+    @State private var searchText: String = ""
     @State var textField: String = ""
     @State var users: [User] = [User(name: "Bamba Diouf", image: "bambadiouf", username: "bambadiouf03"), User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"), User(name: "William Wang", image: "williamwang", username: "willywonka04"), User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"), User(name: "Nandini Gupta", image: "nandinigupta", username: "nandygupta"), User(name: "Priya Patel", image: "priyapatel", username: "priyapatell"), User(name: "Milan Dutta", image: "milandutta", username: "milandutta04"), User(name: "Colby Eagan", image: "colbyeagan", username: "colbyeagan03"), User(name: "Akhil Motiramani", image: "akhilmotiramani", username: "akhilmotiriamani")]
     
+    var searchResults: [User] {
+        if searchText.isEmpty {
+            return um.users
+        } else {
+            print(um.users.filter {$0.name.contains(searchText)})
+            return um.users.filter { $0.name.contains(searchText) }
+        }
+    }
+
     @State var topUsers: [User] = [User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"), User(name: "William Wang", image: "williamwang", username: "willywonka04"), User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"), User(name: "Colby Eagan", image: "colbyeagan", username: "colbyeagan03")]
+    
     var body: some View {
         NavigationStack {
             HStack {
@@ -46,15 +56,11 @@ struct PayRequestView: View {
                                 .fontWeight(.semibold)
                             HStack {
                                 VStack(alignment: .leading) {
-                                            ForEach(um.searchResults) { user in
-                                                    //NavigationLink(destination: ProfileDetailView(user: user)) {
-//                                                    PeopleView(user: user)
-//                                                }
-                                                Text(user.name)
+                                        ForEach($users) { user in
+                                                NavigationLink(destination: ProfileDetailView(user: user)) {
+                                                    PeopleView(user: user)
+                                                }
                                             }
-                                        
-                                        .searchable(text: $um.searchText)
-
                                 }
                          }
                             Spacer()
@@ -63,9 +69,7 @@ struct PayRequestView: View {
                 }
             }
             .padding(.leading, 20)
-        }
-
-    }
+        }    }
 }
 
 #Preview{

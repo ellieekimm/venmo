@@ -8,7 +8,53 @@
 import SwiftUI
 
 struct TransactionsView: View {
-    var payments: [Payment] = [Payment(sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"), receiver: User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"), description: "decomposing", amount: -5.23, history: "3h", date: "Nov 24, 2023", privacy: false, likeCount: 5, time: "10:24 PM"), Payment(sender: User(name: "William Wang", image: "williamwang", username: "willywonka04"), receiver: User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"), description: "feet pics <3", amount: 513, history: "10h", date: "Oct 25, 2023", privacy: true, likeCount: 10, time: "5:49 AM"), Payment(sender: User(name: "Bamba Diouf", image: "bambadiouf", username: "bambadiouf03"), receiver: User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"), description: "purr slay", amount: 103, history: "24h", date: "Jul 13, 2023", privacy: false, likeCount: 1000, time: "9:39 AM"),  Payment(sender: User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"), receiver: User(name: "Milan Dutta", image: "milandutta", username: "milandutta04"), description: "coffee", amount: -8.75, history: "2h", date: "Nov 23, 2023", privacy: false, likeCount: 7, time: "12:35 PM")]
+    @EnvironmentObject var paymentManager: PaymentManager
+    var payments: [Payment] = [
+        Payment(
+            sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"),
+            receiver: User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"),
+            description: "decomposing",
+            amount: -5.23,
+            history: "3h",
+            date: "Nov 24, 2023",
+            privacy: false,
+            likeCount: 5,
+            time: "10:24 PM"
+        ),
+        Payment(
+            sender: User(name: "William Wang", image: "williamwang", username: "willywonka04"),
+            receiver: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"),
+            description: "feet pics <3",
+            amount: 513,
+            history: "10h",
+            date: "Oct 25, 2023",
+            privacy: true,
+            likeCount: 10,
+            time: "5:49 AM"
+        ),
+        Payment(
+            sender: User(name: "Priya Patel", image: "priyapatel", username: "priyapatel"),
+            receiver: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"),
+            description: "purr slay",
+            amount: 103,
+            history: "24h",
+            date: "Jul 13, 2023",
+            privacy: false,
+            likeCount: 1000,
+            time: "9:39 AM"
+        ),
+        Payment(
+            sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"),
+            receiver: User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"),
+            description: "coffee",
+            amount: -8.75,
+            history: "2h",
+            date: "Nov 23, 2023",
+            privacy: false,
+            likeCount: 7,
+            time: "12:35 PM"
+        )
+    ]
     var body: some View {
         ScrollView {
             VStack(spacing: 10) {
@@ -70,7 +116,8 @@ struct TransactionsView: View {
                 }
                 .padding()
                 
-                ForEach(payments) { payment in
+
+                ForEach(paymentManager.payments) { payment in
                     if payment.sender.name == "Ellie Kim" || payment.receiver.name == "Ellie Kim" {
                         HistoryView(vm: PaymentViewModel(model: payment))
                             .padding(.horizontal)

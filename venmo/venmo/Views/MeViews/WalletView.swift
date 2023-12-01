@@ -24,7 +24,7 @@ struct WalletView: View {
                     ZStack{
                         RoundedRectangle(cornerRadius: 20)
                             .foregroundColor(Color("venmoblue"))
-                            .frame(width: 100, height: 30)
+                            .frame(width: 120, height: 40)
                         Text("Transfer")
                             .foregroundColor(Color.white)
                             .fontWeight(.bold)
@@ -69,6 +69,8 @@ struct WalletView: View {
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
                                 .stroke(Color("profilebackground"), lineWidth: 1)
+                                .shadow(color: Color.black.opacity(0.5), radius: 5, x: 2, y: 2)
+
                     )
                         VStack(alignment: .leading){
                             Image("boaimage")
@@ -103,7 +105,10 @@ struct WalletView: View {
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
                                 .stroke(Color("profilebackground"), lineWidth: 1)
+                                .shadow(color: Color.black.opacity(0.5), radius: 5, x: 2, y: 2)
+
                     )
+
                         VStack{
                             ZStack{
                                 Circle()

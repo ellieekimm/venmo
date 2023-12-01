@@ -9,7 +9,9 @@ import Foundation
 import SwiftUI
 
 class UserManager: ObservableObject {
-    @Published var userDisplay: [User] = []
+
+    
+    var userDisplay: [User] = []
     @Published var searchText: String = ""
 
     @Published var users: [User] = [User(name: "Bamba Diouf", image: "bambadiouf", username: "bambadiouf03"), User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"), User(name: "William Wang", image: "williamwang", username: "willywonka04"), User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"), User(name: "Nandini Gupta", image: "nandinigupta", username: "nandygupta"), User(name: "Priya Patel", image: "priyapatel", username: "priyapatell"), User(name: "Milan Dutta", image: "milandutta", username: "milandutta04"), User(name: "Colby Eagan", image: "colbyeagan", username: "colbyeagan03"), User(name: "Akhil Motiramani", image: "akhilmotiramani", username: "akhilmotiriamani")]
@@ -17,7 +19,6 @@ class UserManager: ObservableObject {
     @Published var topUsers: [User] = [User(name: "Sruthy Mammen", image: "sruthymammen", username: "sruthymammen"), User(name: "William Wang", image: "williamwang", username: "willywonka04"), User(name: "Shreeya Kantamsetty", image: "shreeyakantamsetty", username: "shreeyakantamsetty"), User(name: "Colby Eagan", image: "colbyeagan", username: "colbyeagan03")]
     
     var searchResults: [User] {
-        print("Entered property")
         if searchText.isEmpty {
             return users
         } else {
@@ -137,6 +138,7 @@ class PaymentViewModel: ObservableObject {
         return ""
     }
     
+
     
     func historyShowPrice() -> Bool {
         if (model.sender.name == "Ellie Kim" || model.receiver.name == "Ellie Kim"){
@@ -147,15 +149,18 @@ class PaymentViewModel: ObservableObject {
     
     func historyFormatAmount() -> String {
         if (historyShowPrice()) {
+            let formattedAmount = String(format: "%.2f", abs(model.amount))
+            
             if (model.sender.name == "Ellie Kim"){
-                return "- $\(abs(model.amount))"
-            }
-            else{
-                return "+ $\(abs(model.amount))"
+                return "- $\(formattedAmount)"
+            } else {
+                return "+ $\(formattedAmount)"
             }
         }
         return ""
     }
+
+    
     
     func historyNameToShow() -> String {
         if (model.receiver.name == "Ellie Kim"){
