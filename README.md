@@ -5,3 +5,4 @@
 <h2>Functionality</h2>
 <p>Although this app focuses mostly on UI, the app allows you either request/pay friends whether on the Home page or Pay/Request page. These payments then show up in the history transactions or the home page, where users can comment or like different payments. Furthermore, the search bar on Pay/Request page is fully functional and allows users to search for specific users to pay for.</p>
 <h2>GIF</h2>
+<img src = "https://github.com/ellieekimm/venmo/blob/main/Screen%20Recording%202023-12-02%20at%202.16.31%20PM.gif" width = "200">
