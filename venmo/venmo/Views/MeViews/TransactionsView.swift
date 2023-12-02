@@ -84,14 +84,14 @@ struct TransactionsView: View {
                         }
                         
                         HStack(spacing: 5) {
-                            Text("Nov 25")
+                            Text("Dec 2")
                                 .foregroundColor(Color.gray)
                                 .font(.system(size: 15))
                             Image(systemName: "lock.fill")
                                 .foregroundColor(Color.gray)
                         }
                         
-                        Text("Estimated to arrive on November 28")
+                        Text("Estimated to arrive on December 5")
                             .font(.system(size: 15))
                             .foregroundColor(Color.gray)
                             .fontWeight(.regular)

@@ -38,8 +38,8 @@ struct ProfileDetailView: View {
             .padding()
             HStack{
                 Button(action: {
-                    let payment: Payment = Payment(sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"), receiver: user, description: description, amount: amountFloat , history: "1m", date: "Nov 29", privacy: false, likeCount: 0, time: "12:05 PM")
-                    paymentManager.payments.append(payment)
+                    let payment: Payment = Payment(sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"), receiver: user, description: description, amount: amountFloat , history: "1m", date: "Dec 3, 2023", privacy: false, likeCount: 0, time: "12:05 PM")
+                    paymentManager.payments.insert(payment, at:0)
                     dismiss()
                 }, label: {
                     ZStack{
@@ -58,8 +58,8 @@ struct ProfileDetailView: View {
                             .foregroundColor(Color("venmoblue"))
                             .frame(width: 150, height: 50)
                         Button(action: {
-                            let payment: Payment = Payment(sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"), receiver: user, description: description, amount: -amountFloat , history: "1m", date: "Nov 29", privacy: false, likeCount: 0, time: "12:05 PM")
-                            paymentManager.payments.append(payment)
+                            let payment: Payment = Payment(sender: User(name: "Ellie Kim", image: "elliekim", username: "elliekim"), receiver: user, description: description, amount: -amountFloat , history: "1m", date: "Dec 3, 2023", privacy: false, likeCount: 0, time: "12:05 PM")
+                            paymentManager.payments.insert(payment, at:0)
                             dismiss()
                         }, label: {
                             Text("Pay")

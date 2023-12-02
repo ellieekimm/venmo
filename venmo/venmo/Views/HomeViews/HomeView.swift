@@ -49,7 +49,7 @@ struct HomeView: View {
                             NavigationLink(destination: ProfileDetailView(user: user)){
                                 ProfileView(user: user)
                             }
-
+                            
                         }
                     }
                     .padding([.bottom, .trailing, .leading])
