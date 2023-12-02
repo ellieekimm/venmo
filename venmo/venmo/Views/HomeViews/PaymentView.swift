@@ -78,6 +78,7 @@ struct PaymentView: View {
                                             .foregroundColor(Color.gray)
                                     }
                                 })
+                                .buttonStyle(.plain)
                                 Text("\(vm.model.likeCount)")
                                     .foregroundColor(Color.gray)
                                     .font(.system(size: 13))
@@ -90,6 +91,8 @@ struct PaymentView: View {
                                     .frame(width: 17)
                                     .foregroundColor(Color.gray)
                             }
+.buttonStyle(.plain)
+
                             Spacer()
                             Image(systemName: "ellipsis")
                                 .resizable()

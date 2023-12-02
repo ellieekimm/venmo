@@ -101,7 +101,7 @@ struct WalletView: View {
                             .foregroundColor(Color.gray)
                             .font(.headline)
                         }
-                        .frame(width: 130)
+                        .frame(width: 140)
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
                                 .stroke(Color("profilebackground"), lineWidth: 1)

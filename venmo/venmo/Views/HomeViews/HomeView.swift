@@ -49,7 +49,8 @@ struct HomeView: View {
                             NavigationLink(destination: ProfileDetailView(user: user)){
                                 ProfileView(user: user)
                             }
-                            
+                            .buttonStyle(.plain)
+
                         }
                     }
                     .padding([.bottom, .trailing, .leading])

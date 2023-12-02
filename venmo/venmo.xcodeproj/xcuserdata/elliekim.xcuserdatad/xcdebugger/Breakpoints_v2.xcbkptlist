@@ -49,6 +49,51 @@
                   endingLineNumber = "0"
                   offsetFromSymbolStart = "20">
                </Location>
+               <Location
+                  uuid = "512FDBD1-D544-4185-9CF3-808F188D9611 - ccf7e656f3df0254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "venmo.PayRequestView.init() -&gt; venmo.PayRequestView"
+                  moduleName = "venmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elliekim/code/appteam/academy/venmo/venmo/venmo/Views/PayRequestViews/PayRequestView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "4252">
+               </Location>
+               <Location
+                  uuid = "512FDBD1-D544-4185-9CF3-808F188D9611 - b4f30062a16f131b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "venmo.PayRequestView.init(um: @autoclosure () -&gt; venmo.UserManager, textField: Swift.String, users: Swift.Array&lt;venmo.User&gt;, topUsers: Swift.Array&lt;venmo.User&gt;) -&gt; venmo.PayRequestView"
+                  moduleName = "venmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elliekim/code/appteam/academy/venmo/venmo/venmo/Views/PayRequestViews/PayRequestView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "512FDBD1-D544-4185-9CF3-808F188D9611 - ccf7e656f3df0254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "venmo.PayRequestView.init() -&gt; venmo.PayRequestView"
+                  moduleName = "venmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elliekim/code/appteam/academy/venmo/venmo/venmo/Views/PayRequestViews/PayRequestView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "4280">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

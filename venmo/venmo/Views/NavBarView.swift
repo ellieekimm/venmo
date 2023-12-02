@@ -52,6 +52,7 @@ struct NavBarView: View {
                                 Color("venmoblue"))                          .font(.system(size: 15))
                     }
                 })
+                .buttonStyle(.plain)
                 .frame(width: 50)
                 Spacer()
                 Button(action: {
@@ -75,6 +76,8 @@ struct NavBarView: View {
                     }
                 })
                 .frame(width: 150)
+                .buttonStyle(.plain)
+
                 Spacer()
                 Button(action: {
                     viewShowing = 3
@@ -102,6 +105,7 @@ struct NavBarView: View {
                 .frame(width: 50)
                 Spacer()
             }
+            .buttonStyle(.plain)
             .padding([.leading, .trailing])
             .overlay(
                 RoundedRectangle(cornerRadius: 0)

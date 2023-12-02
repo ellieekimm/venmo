@@ -39,6 +39,7 @@ struct PayRequestView: View {
                                         NavigationLink(destination: ProfileDetailView(user: user)) {
                                             PeopleView(user: user)
                                         }
+                                        .buttonStyle(.plain)
                                     }
                                 }
                             Spacer()
